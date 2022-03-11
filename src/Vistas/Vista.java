@@ -47,7 +47,6 @@ public class Vista extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jCheckBox1 = new javax.swing.JCheckBox();
         btnIngresar = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
 
@@ -137,6 +136,11 @@ public class Vista extends javax.swing.JFrame {
         txtNick.setForeground(new java.awt.Color(255, 255, 255));
         txtNick.setBorder(null);
         txtNick.setCaretColor(new java.awt.Color(73, 181, 172));
+        txtNick.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNickActionPerformed(evt);
+            }
+        });
         jPanel2.add(txtNick, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, 270, 40));
 
         txtpassword.setBackground(new java.awt.Color(33, 45, 62));
@@ -159,14 +163,6 @@ public class Vista extends javax.swing.JFrame {
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_Lock_25px.png"))); // NOI18N
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, 48, 42));
-
-        jCheckBox1.setBackground(new java.awt.Color(33, 45, 62));
-        jCheckBox1.setFont(new java.awt.Font("Gotham Thin", 0, 14)); // NOI18N
-        jCheckBox1.setForeground(new java.awt.Color(255, 255, 255));
-        jCheckBox1.setText("Recuérdame");
-        jCheckBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jCheckBox1.setEnabled(false);
-        jPanel2.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 160, -1));
 
         btnIngresar.setBackground(new java.awt.Color(229, 26, 76));
         btnIngresar.setFont(new java.awt.Font("Gotham Extra Light", 0, 18)); // NOI18N
@@ -208,6 +204,10 @@ public class Vista extends javax.swing.JFrame {
     private void btnCreditosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreditosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCreditosActionPerformed
+
+    private void txtNickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNickActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNickActionPerformed
 
     /**
      * @param args the command line arguments
@@ -306,12 +306,11 @@ public class Vista extends javax.swing.JFrame {
             }
         });
     }
-
+//Se elimino el bot+on Recuerdame 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnCreditos;
     public javax.swing.JButton btnExit;
     public javax.swing.JButton btnIngresar;
-    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
