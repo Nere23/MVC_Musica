@@ -47,7 +47,7 @@ public class VistaCreditos extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(229, 26, 76));
+        jPanel1.setBackground(new java.awt.Color(153, 51, 255));
 
         jLabel3.setFont(new java.awt.Font("Gotham Thin", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
@@ -90,7 +90,8 @@ public class VistaCreditos extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 600));
 
-        jPanel2.setBackground(new java.awt.Color(33, 45, 62));
+        jPanel2.setBackground(new java.awt.Color(0, 51, 153));
+        jPanel2.setForeground(new java.awt.Color(51, 51, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnExit.setBackground(new java.awt.Color(229, 26, 76));

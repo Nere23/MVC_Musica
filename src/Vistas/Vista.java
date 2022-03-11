@@ -56,7 +56,7 @@ public class Vista extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(229, 26, 76));
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lblDivinos.png"))); // NOI18N
 
