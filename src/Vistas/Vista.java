@@ -24,6 +24,8 @@ public class Vista extends javax.swing.JFrame {
         AWTUtilities.setWindowShape(this, forma);
        
     }
+    
+    //Se elimino el boton Recuerdame
 
     /**
      * This method is called from within the constructor to initialize the form.
